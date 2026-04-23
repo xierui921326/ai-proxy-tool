@@ -1,0 +1,33 @@
+# Rust 构建产物
+/target/
+**/target/
+
+# Tauri / 前端依赖与构建
+/node_modules/
+**/node_modules/
+/dist/
+**/dist/
+/.parcel-cache/
+/.cache/
+
+# macOS 系统文件
+.DS_Store
+
+# 生成的数据或本地配置
+/.data/
+/core-gateway/.data/
+
+# 编辑器/IDE
+.idea/
+.vscode/
+
+# 其他可能的临时文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 环境变量文件（如需）
+.env
+.env.*
